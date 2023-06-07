@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/remixicon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <div class="header">
+        <a class="logo" href="#">EMMA</a>
+        <div class="burger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+          
+          <ul class="menuBurger" id="menuList">
+              <a class = "lienBurger" href="#">Acceuil</a>
+              <a class = "lienBurger" href="#">A propos</a>
+              <a class = "lienBurger" href="#">Clans</a>
+              <a class = "lienBurger" href="#">Hotel de Ville</a>
+              <a class = "lienBurger" href="#">Troupes</a>
+              <a class = "lienBurger" href="#">Contact</a>
+          </ul>
+          
+          <script>
+          function toggleMenu() {
+            var menu = document.getElementById("menuList");
+            menu.classList.toggle("open");
+          }
+          </script>
+
+        <nav class="menuList">
+            <a class="menu" href="#">Acceuil</a>
+            <a class="menu" href="#">A propos</a>
+            <a class="menu" href="#">Clans</a>
+            <a class="menu" href="#">Hotel de Ville</a>
+            <a class="menu" href="#">Troupes</a>
+            <a class="menu" href="#">Contact</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="logoSocial">
+            <i id="social" class='bx bxl-instagram'></i>
+            <i id="social" class='bx bxl-youtube' ></i>
+            <i id="social" class='bx bx-basketball' ></i>
+        </div>
+        <div class="presentation">
+            <div>
+                <h5>#Tendance</h5>
+                <h4>Dev Web Lens Production</h4>
+                <h1 style="font-family: 'Permanent Marker', cursive">Goblins</h1>
+
+                <p>Rejoignez des millions de joueurs dans le monde entier en </p>
+                <p>construisant votre village,</p>
+                <p>élevez un clan et terminez en un Epic Clan Wars !!</p>
+            </div>
+            <div class="boutons" > 
+                <a class="compare" href="#">COMPARE</a>
+                <a class="watch" href="#">WATCH GAMEPLAY</a> 
+            </div>
+
+            
+        </div>
+        <div class="picture">
+                <img src="image/goblins.png" alt="goblin">
+        </div>
+    </div>
+</body>
+</html>
